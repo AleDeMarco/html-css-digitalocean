@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug header{
+  background-color: orange;
+}
+
+.debug #navbar{
+  height: 80px;
+  background-color: pink;
+}
+
+.debug #jumbotron{
+  height: 200px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.debug #business{
+  height: 50px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.debug #process{
+  height: 250px;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.debug #process:first-child{
+  height: 300px;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.debug #designed-title{
+  height: 50px;
+  background-color: violet;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.debug #designed{
+  height: 250px;
+  background-color: violet;
+  border: 2px solid black;
+}
+
+.debug #arrow{
+  height: 250px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.debug #points{
+  height: 50px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.debug #subtitle{
+  height: 50px;
+  background-color: violet;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.debug #features-title{
+  height: 80px;
+  margin-bottom: 30px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.debug #features{
+  height: 200px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.debug #service-title{
+  height: 80px;
+  margin-bottom: 30px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.debug #service{
+  height: 400px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.debug #teams-title{
+  height: 50px;
+  background-color: violet;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.debug #teams{
+  height: 250px;
+  margin-bottom: 20px;
+  background-color: violet;
+  border: 2px solid black;
+}
+
+.debug #start{
+  height: 50px;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.debug #footer{
+  height: 300px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+
+/* HEADER */
+
+
+/* JUMBOTRON */
+.jumbo{
+  padding: 50px 0;
+  background-color: #004aff;
+}
+
+/* BUSINESS */
+.business{
+  padding: 50px 0;
+  background-color: #f3f5f9;
+}
+
+/* PROCESS */
+.process{
+  padding: 50px 0;
+}
+
+/* DESIGNED */
+.designed{
+  padding: 50px 0;
+  background-color: #f3f5f9;
+}
+
+/* FEATURES */
+.features{
+  padding: 50px 0;
+}
+
+/* SERVICE */
+.service{
+  padding: 50px 0;
+  background-color: #004aff;
+}
+
+/* TEAMS */
+.teams{
+  padding: 50px 0;
+}
+
+/* START */
+.start{
+  padding: 50px 0;
+  background-color: #004aff;
+}
+
+/* FOOTER */
+footer{
+  padding: 50px 0;
+  background-color: #031c4e;
+}
