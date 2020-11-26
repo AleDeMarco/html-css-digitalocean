@@ -28,63 +28,13 @@ p{
   color: #004aff;
 }
 
-
-.debug #process{
-  height: 250px;
-  background-color: green;
-  border: 2px solid black;
+.my_grey{
+  color: #6f7b97;
 }
 
-.debug #process:first-child{
-  height: 300px;
-  background-color: green;
-  border: 2px solid black;
-}
 
-.debug #designed-title{
-  height: 50px;
-  background-color: violet;
-  margin-bottom: 20px;
-  border: 2px solid black;
-}
 
-.debug #designed{
-  height: 250px;
-  background-color: violet;
-  border: 2px solid black;
-}
 
-.debug #arrow{
-  height: 250px;
-  background-color: pink;
-  border: 2px solid black;
-}
-
-.debug #points{
-  height: 50px;
-  background-color: pink;
-  border: 2px solid black;
-}
-
-.debug #subtitle{
-  height: 50px;
-  background-color: violet;
-  margin-bottom: 20px;
-  border: 2px solid black;
-}
-
-.debug #features-title{
-  height: 80px;
-  margin-bottom: 30px;
-  background-color: red;
-  border: 2px solid black;
-}
-
-.debug #features{
-  height: 200px;
-  background-color: red;
-  border: 2px solid black;
-}
 
 .debug #service-title{
   height: 80px;
@@ -269,9 +219,14 @@ header .hidden-lg i{
 
 .process .my_item{
   font-size: 18px;
-  color: grey;
+  color: #6f7b97;
   padding: 20px;
-  border-left: 2px solid grey;
+  border-left: 2px solid #6f7b97;
+}
+
+.process .text{
+  font-size: 15px;
+  color: #6f7b97;
 }
 
 /* DESIGNED */
@@ -280,9 +235,32 @@ header .hidden-lg i{
   background-color: #f3f5f9;
 }
 
+.designed img{
+  width: 100%;
+}
+
+.designed .hidden-xs i{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 991px){.designed .hidden-xs i{line-height: 305px;}}
+
+@media screen and (min-width: 992px){.designed .hidden-xs i{line-height: 400px;}}
+
+@media screen and (min-width: 1200px){.designed .hidden-xs i{line-height: 486px;}}
+
+.designed .text-center i{
+  color: #004aff;
+}
+
 /* FEATURES */
 .features{
   padding: 50px 0;
+}
+
+.features .text{
+  font-size: 15px;
+  color: #6f7b97;
 }
 
 /* SERVICE */
