@@ -267,6 +267,13 @@ header .hidden-lg i{
   list-style: none;
 }
 
+.process .my_item{
+  font-size: 18px;
+  color: grey;
+  padding: 20px;
+  border-left: 2px solid grey;
+}
+
 /* DESIGNED */
 .designed{
   padding: 50px 0;
