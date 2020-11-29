@@ -32,36 +32,12 @@ p{
   color: #6f7b97;
 }
 
-
-
-
-
-.debug #service-title{
-  height: 80px;
-  margin-bottom: 30px;
-  background-color: yellow;
-  border: 2px solid black;
+.my_bottom_line{
+  border-bottom: 2px solid white;
 }
 
-.debug #service{
-  height: 400px;
-  background-color: yellow;
-  border: 2px solid black;
-}
 
-.debug #teams-title{
-  height: 50px;
-  background-color: violet;
-  margin-bottom: 20px;
-  border: 2px solid black;
-}
 
-.debug #teams{
-  height: 250px;
-  margin-bottom: 20px;
-  background-color: violet;
-  border: 2px solid black;
-}
 
 .debug #start{
   height: 50px;
@@ -261,23 +237,96 @@ header .hidden-lg i{
 .features .text{
   font-size: 15px;
   color: #6f7b97;
+  margin-bottom: 10px;
 }
 
 /* SERVICE */
 .service{
   padding: 50px 0;
-  background-color: #004aff;
+  background: linear-gradient(0deg, rgba(0,30,154,1) 0%, rgba(0,71,197,1) 100%);
+}
+
+.service .text{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  line-height: 35px;
+}
+
+.service .location{
+  font-size: 15px;
+  color: #a9b6de;
+  line-height: 35px;
+}
+
+.service a{
+  font-size: 15px;
+  color: #00d5d1;
+  line-height: 35px;
+}
+
+.service .container .my_bottom_line:first-child{
+  margin-top: 20px;
 }
 
 /* TEAMS */
 .teams{
   padding: 50px 0;
+  background-color: #f3f5f9;
+}
+
+.teams .hidden-xs i{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 991px){.teams .hidden-xs i{line-height: 305px;}}
+
+@media screen and (min-width: 992px){.teams .hidden-xs i{line-height: 400px;}}
+
+@media screen and (min-width: 1200px){.teams .hidden-xs i{line-height: 486px;}}
+
+.teams .text-center i{
+  color: #004aff;
+}
+
+.teams .box{
+  height: 380px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.teams img{
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.teams .name{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.teams .box p{
+  margin-bottom: 40px;
 }
 
 /* START */
 .start{
   padding: 50px 0;
-  background-color: #004aff;
+  background: linear-gradient(0deg, rgba(0,30,154,1) 0%, rgba(0,71,197,1) 100%);
+}
+
+.start h2{
+  margin-bottom: 40px;
+}
+
+.start .my_btn{
+  font-size: 20px;
+  color: #004aff;
+  border: 1px solid #004aff;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
 }
 
 /* FOOTER */
